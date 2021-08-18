@@ -1,0 +1,75 @@
+section {
+    display: flex;
+    flex-direction: row;
+}
+main {
+    background-image: url(nuvem.jpg);
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: gray;
+    text-align: center;
+    width:auto;
+    height: 60vh;
+    flex: 1;
+    
+    box-sizing:content-box;
+    border-radius: 20px;
+    border: solid 1px;
+}
+h1 {
+    text-shadow: 10px 15px 4px gray;
+}
+aside {
+    background-image: url(nuvem.jpg);
+    font-size: 16px;
+    font-family: sans-serif;
+    text-decoration: line-through;
+    color: white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: gray;
+    text-align: center;
+    width: 10vw;
+    height: 60vh;
+    border-radius: 20px;
+    box-sizing: content-box;
+}
+header{
+    text-shadow: 10px 15px 4px black;
+    background-image: url(nuvem.jpg);
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: gray;
+    width: auto;
+    height: 20vh;
+    border-radius: 0px 20px 0px 20px;
+    box-sizing: content-box;
+}
+footer {
+    text-shadow: 10px 15px 4px black;
+    background-image: url(nuvem.jpg);
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration-line:line-through;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: gray;
+    width: auto;
+    height: 20vh;
+    border-radius: 20px;
+    box-sizing: content-box;
+}
+audio {
+    text-align: left;
+}
+form {
+    text-align: right;
+}
+}
+body {
+    background:content-box;
+}
