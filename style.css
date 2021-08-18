@@ -69,7 +69,12 @@ audio {
 form {
     text-align: right;
 }
+header audio {
+    text-align: left;
 }
-body {
-    background:content-box;
+header form {
+    text-align: right;
+}
+header nav{
+    text-align: center;
 }
